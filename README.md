@@ -49,5 +49,5 @@ On the other hand, passing sting variables into the If Then statements were less
 Overall, the script was improved such that runtimes were reduced by 75%. 
 
 Here is the link to the excel file:
-[[main/VBA_Challenge.xlsm](https://github.com/vjtrom/stock-analysis/blob/main/VBA_Challenge.xlsm))](https://github.com/vjtrom/stock-analysis/blob/main/VBA_Challenge.xlsm)
+[VBA_Chalenge.xlsm](https://github.com/vjtrom/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
