@@ -23,10 +23,12 @@ In 2017,  stocks in this cohort had positive returns, with some of them generati
 
 While total trading volume of all of the stocks combined grew modestly from $3.16 to $3.31 Billion year-over year, within individual stocks, trading volume varied greatly. For example, DQ’s trading volume increased by 206% and ENPH increased by 174%, while SPWR, FSLR, CSIQ and AY all saw trading volumes fall by 30% or more. 
 
+
 ### Runtime Performance
 Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds for ‘2018’. Using the refactored code, runtimes improved to .0664 seconds for ‘2017’ and 0.625 seconds for ‘2018’.
 
-![Image of 2017](https://github.com/vjtrom/stock-analysis/blob/main/resources/VBA_Challenge_2017.png)
+![Image of 2017](https://github.com/vjtrom/stock-analysis/blob/main/resources/VBA_Challenge_2017.png)!
+![Image of 2017](https://github.com/vjtrom/stock-analysis/blob/main/resources/Greenstock_original_2018_runtime.png)
 
 ### Reasons for the improvement:
 Run time improves from more efficient and better-structured code. These include use of indices in arguments versus string data, avoiding hardcoding, leveraging the use of arrays, and effective use of loops and nested loops. Making better use of arithmetic operations within the If Then statements is more efficient than evaluating string variables each time the loop runs.  
