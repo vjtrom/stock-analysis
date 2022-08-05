@@ -57,5 +57,5 @@ Overall, the script was improved such that runtimes were reduced by 75%.
 Here is the link to the excel file:
 [VBA_Chalenge.xlsm](https://github.com/vjtrom/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
-### Using TickerIndex makes the code more efficient since numerical values are used in the script
+<sub>Using TickerIndex makes the code more efficient since numerical values are used in the script
 ![TickerIndex](https://github.com/vjtrom/stock-analysis/blob/main/resources/TickerIndex.png)
