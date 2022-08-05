@@ -1,4 +1,4 @@
-# VBA oF Wallstreet - Module 2 Challenge
+# VBA of Wallstreet - Module 2 Challenge
 ## Overview of Project: 
 
 Visual Basic for applications is a powerful tool, especially its integration within excel. The tool can help make applications easier to use by automating certain processes and procedures, as well as creating visualizations to better present data and make it more intuitive. This module allows the student to begin developing VBA skills and understand key concepts. These include:
