@@ -29,7 +29,7 @@ Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds
 ### Reasons for the improvement:
 Run time improves from more efficient and better-structured code. These include use of indices in arguments versus string data, avoiding hardcoding, leveraging the use of arrays, and effective use of loops and nested loops. Making better use of arithmetic operations within the If Then statements is more efficient than evaluating string variables each time the loop runs.  
 
-## Advantages and disadvantages of refactoring code
+## Advantages and disadvantages of refactoring code:
 There are both advantages and disadvantages to refactoring script. 
 Some of the ***advantages*** include:
 -	Leverages code that might already be working, therefore reducing development times and improving design
@@ -41,9 +41,13 @@ Conversely, some of the ***disadvantages*** to rafactoring code include:
 -	If original code is poorly documented, it can cause confusion and slow down development
 -	Structure of original code is inherently inefficient and poorly designed, thereby causing ‘GIGO’ (Garbage In, Garbage Out)
 
-## How do these pros and cons apply to refactoring the original VBA script?
+## How these pros and cons apply to refactoring the original VBA script:
 The original code was well written in some areas, including setting the timer, declaring the string variables, and managing the formatting. These parts of the original code were for the most part left in intact in the refactored script. Documentation in the original code  made it easy to understand, and the flow and design were generally good. 
 
 On the other hand, passing sting variables into the If Then statements were less efficient than using the TickerIndex variable, so a restructuring of the code to use the index over the three arrays vastly improved run time and efficiency. In addition, the original code did not efficiently use computer resources by leveraging mathematical calculations. 
 
 Overall, the script was improved such that runtimes were reduced by 75%. 
+
+Here is the link to the excle file:
+[VBA]
+
