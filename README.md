@@ -23,7 +23,6 @@ In 2017,  stocks in this cohort had positive returns, with some of them generati
 
 While total trading volume of all of the stocks combined grew modestly from $3.16 to $3.31 Billion year-over year, within individual stocks, trading volume varied greatly. For example, DQ’s trading volume increased by 206% and ENPH increased by 174%, while SPWR, FSLR, CSIQ and AY all saw trading volumes fall by 30% or more. 
 
-
 ### Runtime Performance
 Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds for ‘2018’. Using the refactored code, runtimes improved to .0664 seconds for ‘2017’ and 0.625 seconds for ‘2018’.
 
@@ -31,7 +30,7 @@ Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds
 Run time improves from more efficient and better-structured code. These include use of indices in arguments versus string data, avoiding hardcoding, leveraging the use of arrays, and effective use of loops and nested loops. Making better use of arithmetic operations within the If Then statements is more efficient than evaluating string variables each time the loop runs.  
 
 ## Advantages and disadvantages of refactoring code
-###There are both advantages and disadvantages to refactoring script. 
+There are both advantages and disadvantages to refactoring script. 
 Some of the ***advantages*** include:
 -	Leverages code that might already be working, therefore reducing development times and improving design
 -	Allows the coder to build off of previous code incrementally in order to better facilitate debugging
@@ -42,7 +41,7 @@ Conversely, some of the ***disadvantages*** to rafactoring code include:
 -	If original code is poorly documented, it can cause confusion and slow down development
 -	Structure of original code is inherently inefficient and poorly designed, thereby causing ‘GIGO’ (Garbage In, Garbage Out)
 
-How do these pros and cons apply to refactoring the original VBA script?
+## How do these pros and cons apply to refactoring the original VBA script?
 The original code was well written in some areas, including setting the timer, declaring the string variables, and managing the formatting. These parts of the original code were for the most part left in intact in the refactored script. Documentation in the original code  made it easy to understand, and the flow and design were generally good. 
 
 On the other hand, passing sting variables into the If Then statements were less efficient than using the TickerIndex variable, so a restructuring of the code to use the index over the three arrays vastly improved run time and efficiency. In addition, the original code did not efficiently use computer resources by leveraging mathematical calculations. 
