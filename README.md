@@ -21,6 +21,8 @@ The project also helps students understand how script can be more efficient, and
 ### Stock Performance 
 In 2017,  stocks in this cohort had positive returns, with some of them generating gains of over 100% (more than doubling in value). In 2018, however, the market for these stocks took a turn for the worse with only two stocks posting positive returns. Three of 12 stocks lost half their value in 2018. Overall, 2017 was a bullish year for these green stocks, followed by a year of sharp declines.
 
+![stocks analsysis](https://github.com/vjtrom/stock-analysis/blob/main/resources/Year%20over%20Year%20Stock%20Analysis.png)
+
 While total trading volume of all of the stocks combined grew modestly from $3.16 to $3.31 Billion year-over year, within individual stocks, trading volume varied greatly. For example, DQ’s trading volume increased by 206% and ENPH increased by 174%, while SPWR, FSLR, CSIQ and AY all saw trading volumes fall by 30% or more. 
 
 
