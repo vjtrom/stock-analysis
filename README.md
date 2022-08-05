@@ -1,5 +1,5 @@
 # Stock Analysis
-##Overview of Project: 
+## Overview of Project: 
 
 Visual Basic for applications is a powerful tool, especially its integration within excel. The tool can help make applications easier to use by automating certain processes and procedures, as well as creating visualizations to better present data and make it more intuitive. This module allows the student to begin developing VBA skills and understand key concepts. These include:
 
@@ -16,27 +16,27 @@ Visual Basic for applications is a powerful tool, especially its integration wit
 
 The project also helps students understand how script can be more efficient, and how run times are affected by code structure. Concepts such as using indices and avoiding hard coding are presented, with the goal of improving run times and better use of computing resources.
 
-##Presentation of Results:
+## Presentation of Results:
 
-###Stock Performance 
+### Stock Performance 
 In 2017,  stocks in this cohort had positive returns, with some of them generating gains of over 100% (more than doubling in value). In 2018, however, the market for these stocks took a turn for the worse with only two stocks posting positive returns. Three of 12 stocks lost half their value in 2018. Overall, 2017 was a bullish year for these green stocks, followed by a year of sharp declines.
 
 While total trading volume of all of the stocks combined grew modestly from $3.16 to $3.31 Billion year-over year, within individual stocks, trading volume varied greatly. For example, DQ’s trading volume increased by 206% and ENPH increased by 174%, while SPWR, FSLR, CSIQ and AY all saw trading volumes fall by 30% or more. 
 
 
-###Runtime Performance
+### Runtime Performance
 Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds for ‘2018’. Using the refactored code, runtimes improved to .0664 seconds for ‘2017’ and 0.625 seconds for ‘2018’.
 
-###Reasons for the improvement:
+### Reasons for the improvement:
 Run time improves from more efficient and better-structured code. These include use of indices in arguments versus string data, avoiding hardcoding, leveraging the use of arrays, and effective use of loops and nested loops. Making better use of arithmetic operations within the If Then statements is more efficient than evaluating string variables each time the loop runs.  
 
 Advantages and disadvantages of refactoring code
-##There are both advantages and disadvantages to refactoring. Some of the advantages include:
+## There are both advantages and disadvantages to refactoring. Some of the advantages include:
 -	Leverages code that might already be working, therefore reducing development times and improving design
 -	Allows the coder to build off of previous code incrementally in order to better facilitate debugging
 -	Allows developer to look for inefficiencies in the original code and build upon improving run times and efficiency
 
-##Conversely, some of the disadvantages is using refactored code include:
+## Conversely, some of the disadvantages is using refactored code include:
 -	If original code is not running well, subsequent code might inefficient as well
 -	If original code is poorly documented, it can slow down development times and cause confusions
 -	Structure of original code is inherently inefficient and poorly designed, thereby causing ‘GIGO’ (Garbage In, Garbage Out)
