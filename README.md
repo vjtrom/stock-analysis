@@ -26,6 +26,8 @@ While total trading volume of all of the stocks combined grew modestly from $3.1
 ### Runtime Performance
 Original Runtimes were .2695 seconds for the ‘2017 ‘ input and .2852 seconds for ‘2018’. Using the refactored code, runtimes improved to .0664 seconds for ‘2017’ and 0.625 seconds for ‘2018’.
 
+![Image of 2017](https://github.com/vjtrom/stock-analysis/blob/main/resources/VBA_Challenge_2017.png)
+
 ### Reasons for the improvement:
 Run time improves from more efficient and better-structured code. These include use of indices in arguments versus string data, avoiding hardcoding, leveraging the use of arrays, and effective use of loops and nested loops. Making better use of arithmetic operations within the If Then statements is more efficient than evaluating string variables each time the loop runs.  
 
