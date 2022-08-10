@@ -50,7 +50,7 @@ Conversely, some of the ***disadvantages*** to rafactoring code include:
 ## How these pros and cons apply to refactoring the original VBA script:
 The original code was well written in some areas, including setting the timer, declaring the string variables, and managing the formatting. These parts of the original code were for the most part left in intact in the refactored script. Documentation in the original code  made it easy to understand, and the flow and design were generally good. 
 
-On the other hand, passing sting variables into the If Then statements were less efficient than using the TickerIndex variable, so a restructuring of the code to use the index over the three arrays vastly improved run time and efficiency. In addition, the original code did not efficiently use computer resources by leveraging mathematical calculations. 
+On the other hand, passing sting variables into the If Then statements were less efficient than using the TickerIndex variable, so a restructuring of the code to use the index over the three arrays vastly improved run time and efficiency. In addition, the original code did not efficiently use computer resources by leveraging mathematical calculations. At the most basic level, computers store data in bits, which can take on the value of either 0 or 1. When using integers for computation versus string data, fewer bits are needed for processing and storage, this increasing computational efficieny. 
 
 Overall, the script was improved such that runtimes were reduced by 75%. 
 
